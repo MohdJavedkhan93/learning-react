@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from "./components/Header"
 import Header2 from "./components/Header2";
-
+import List from "./components/List"
 
 function App() {
   return (
@@ -10,18 +10,8 @@ function App() {
       <header className="App-header">
         <Header myName="Mohd Javed Khan" />
         <Header2 />
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <List />
+        
       </header>
     </div>
   );
