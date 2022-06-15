@@ -1,10 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from "./components/Header"
+import Header2 from "./components/Header2";
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Header myName="Mohd Javed Khan" />
+        <Header2 />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
